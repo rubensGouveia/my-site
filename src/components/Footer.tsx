@@ -5,8 +5,8 @@ const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-gray-400 body-font">
-      <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <footer className="bg-gray-900 text-gray-400 body-font flex w-full">
+      <div className="container px-5 py-8 flex items-center sm:flex-row flex-col justify-between ">
         <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
           <svg width="auto" height="60" viewBox="0 0 656 863">
             <svg
@@ -58,12 +58,12 @@ const Footer: React.FC = () => {
           </svg>
         </a>
 
-        <p className="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
-          © Copyright {currentYear}, All Rights Reserved by GL Arcof Tecnologia
-          LTDA |
+        <p className="text-sm text-gray-400 sm:ml-4 sm:pl-4  sm:py-2 sm:mt-0 mt-4 text-center">
+          © Copyright {currentYear}, All Rights Reserved by <br />
+          GL Arcof Tecnologia LTDA <br />
           <span className="text-gray-500 ml-1">CNPJ 37.428.522/0001-07</span>
         </p>
-        <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <span className="inline-flex sm:mt-0 mt-4 justify-center sm:justify-start">
           <a
             href="https://www.instagram.com/rubensgouveia/"
             target="_blank"

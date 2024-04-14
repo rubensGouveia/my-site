@@ -17,7 +17,7 @@ export default function Home() {
         <meta name="description" content="Inovação e Tecnologia" />
       </Head>
       <main
-        className={`flex min-h-screen flex-col items-center justify-between bg-gray-900  lg:p-16  md:p-4 p-4 ${inter.className}`}
+        className={`flex min-h-screen flex-col items-center justify-between bg-gray-900  lg:p-16  md:p-4 p-4  pt-16 ${inter.className}`}
       >
         <Header />
         <HeroSection />
