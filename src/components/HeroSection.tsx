@@ -28,7 +28,7 @@ const HeroSection: React.FC = () => {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="https://images.unsplash.com/photo-1516110833967-0b5716ca1387?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="hero.svg"
           />
         </div>
       </div>
