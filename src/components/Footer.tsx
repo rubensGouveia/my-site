@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-gray-400 body-font flex w-full">
+    <footer className="bg-gray-900 text-gray-400 body-font flex w-full justify-center">
       <div className="container px-5 py-8 flex items-center sm:flex-row flex-col justify-between ">
         <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
           <svg width="auto" height="60" viewBox="0 0 656 863">
