@@ -6,6 +6,7 @@ import AboutSection from "@/components/AboutSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import Head from "next/head";
+import ContentSection from "@/components/ContentSection";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,8 +14,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Arcof Tecnologia</title>
-        <meta name="description" content="Inovação e Tecnologia" />
+        <title>
+          Arcof Tecnologia - Soluções de Automação e Gestão de Mensagens
+        </title>
+        <meta
+          name="description"
+          content="A Arcof oferece soluções avançadas de automação para WhatsApp e Instagram, além de desenvolvimento frontend e consultoria especializada para impulsionar seu negócio."
+        />
       </Head>
       <main
         className={`flex min-h-screen flex-col items-center justify-between bg-gray-900  lg:p-16  md:p-4 p-4  pt-16 ${inter.className}`}
@@ -23,6 +29,7 @@ export default function Home() {
         <HeroSection />
         <ServicesSection />
         <AboutSection />
+        <ContentSection />
 
         <ContactSection />
         <Footer />
