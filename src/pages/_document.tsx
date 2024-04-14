@@ -4,8 +4,6 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>Arcof Tecnologia</title>
-        <meta name="description" content="Inovação e Tecnologia" />
         <link
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
           rel="stylesheet"
