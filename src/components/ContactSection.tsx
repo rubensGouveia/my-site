@@ -70,13 +70,10 @@ const ContactSection: React.FC = () => {
   };
 
   return (
-    <section
-      id="contact"
-      className="text-gray-400 bg-gray-900 body-font relative"
-    >
-      <div className="container px-5 py-24 mx-auto">
+    <section id="contact" className="text-gray-400 bg-gray-900 body-font">
+      <div className="container flex flex-col px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
-          <h1 className="sm:text-3xl font-heading text-2xl font-medium title-font mb-4 text-white">
+          <h1 className="title-font sm:text-4xl font-heading text-2xl font-medium title-font mb-4 text-white">
             Contato
           </h1>
           <p className="lg:w-2/3 mx-auto font-sans leading-relaxed text-base">
@@ -84,7 +81,7 @@ const ContactSection: React.FC = () => {
             contato conosco.
           </p>
         </div>
-        <div className="lg:flex-grow md:w-2/3 mx-auto">
+        <div className="lg:flex-grow md:w0/3 mx-auto">
           <form
             onSubmit={handleSubmit(onSubmit)}
             className="flex flex-wrap -m-2"
