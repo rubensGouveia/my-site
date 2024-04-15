@@ -22,8 +22,8 @@ const AboutSection: React.FC = () => {
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
             className="object-cover object-center rounded"
-            alt="about Arcof"
-            src="https://images.unsplash.com/photo-1493979969019-a78fdb263931?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="illustration a couple creating a chatbot | Image by vectorjuice on Freepick"
+            src="about.svg"
           />
         </div>
       </div>
