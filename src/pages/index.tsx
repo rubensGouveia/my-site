@@ -14,21 +14,19 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>
-          Arcof Tecnologia - Soluções de Automação e Gestão de Mensagens
-        </title>
+        <title>Arcof - Automação e Soluções Digitais</title>
         <meta
           name="description"
-          content="A Arcof oferece soluções avançadas de automação para WhatsApp e Instagram, além de desenvolvimento frontend e consultoria especializada para impulsionar seu negócio."
+          content="Impulsione seu negócio com as soluções de automação para WhatsApp e Instagram da Arcof. Conte também com desenvolvimento web e consultoria especializada"
         />
         <meta
           property="og:title"
-          content="Arcof Tecnologia - Soluções de Automação e Gestão de Mensagens"
+          content="Arcof - Automação e Soluções Digitais!"
         />
         <meta property="og:image" content="hero.svg" />
         <meta
           property="og:description"
-          content="A Arcof oferece soluções avançadas de automação para WhatsApp e Instagram, além de desenvolvimento frontend e consultoria especializada para impulsionar seu negócio."
+          content="Impulsione seu negócio com as soluções de automação para WhatsApp e Instagram da Arcof. Conte também com desenvolvimento web e consultoria especializada"
         />
         <meta property="og:url" content="https://arcof.com.br/" />
         <meta name="twitter:card" content="summary_large_image" />
