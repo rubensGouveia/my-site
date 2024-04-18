@@ -65,7 +65,7 @@ const Footer: React.FC = () => {
         </p>
         <span className="inline-flex sm:mt-0 mt-4 justify-center sm:justify-start">
           <a
-            href="https://www.instagram.com/rubensgouveia/"
+            href="https://www.instagram.com/arcofdigital/"
             target="_blank"
             className="ml-3 text-gray-400"
           >
@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
               <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1-3h.01"></path>
             </svg>
           </a>
-          <a
+          {/* <a
             href="https://www.linkedin.com/in/rubens-gouveia-7394b2159/"
             target="_blank"
             className="ml-3 text-gray-400"
@@ -103,7 +103,7 @@ const Footer: React.FC = () => {
               <path stroke="none" d="M2 9h4v12H2z"></path>
               <circle cx="4" cy="4" r="2" stroke="none"></circle>
             </svg>
-          </a>
+          </a> */}
         </span>
       </div>
     </footer>

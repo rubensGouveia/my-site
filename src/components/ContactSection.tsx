@@ -153,11 +153,11 @@ const ContactSection: React.FC = () => {
             </h2>
             <p className="mt-2">
               <a
-                href="https://wa.me/5583981952341"
+                href="https://wa.me/5561996824771"
                 target="_blank"
                 className="text-indigo-400"
               >
-                Telefone: 83 98195-2341
+                Telefone: 61 99682-4771
               </a>
             </p>
             <p>
