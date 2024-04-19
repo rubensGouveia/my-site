@@ -2,7 +2,7 @@ const Header: React.FC = () => {
   return (
     <header className="bg-gray-900 fixed top-0 z-50 text-white body-font shadow w-full">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+        <span className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
           <svg width="auto" height="60" viewBox="0 0 656 863">
             <svg
               width="656"
@@ -51,7 +51,7 @@ const Header: React.FC = () => {
               />
             </svg>
           </svg>
-        </a>
+        </span>
 
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
           <a href="/#services" className="mr-5 hover:text-indigo-400">

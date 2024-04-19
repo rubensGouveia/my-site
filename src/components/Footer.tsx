@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-900 text-gray-400 body-font flex w-full justify-center">
       <div className="container px-5 py-8 flex items-center sm:flex-row flex-col justify-between ">
-        <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
+        <span className="flex title-font font-medium items-center md:justify-start justify-center text-white">
           <svg width="auto" height="60" viewBox="0 0 656 863">
             <svg
               width="656"
@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
               />
             </svg>
           </svg>
-        </a>
+        </span>
 
         <p className="text-sm text-gray-400 sm:ml-4 sm:pl-4  sm:py-2 sm:mt-0 mt-4 text-center">
           © Copyright {currentYear}, All Rights Reserved by <br />
