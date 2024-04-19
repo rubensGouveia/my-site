@@ -68,6 +68,7 @@ const Footer: React.FC = () => {
             href="https://www.instagram.com/arcofdigital/"
             target="_blank"
             className="ml-3 text-gray-400"
+            aria-label="acessar o instagram da arcof"
           >
             <svg
               fill="none"

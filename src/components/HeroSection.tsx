@@ -19,6 +19,7 @@ const HeroSection: React.FC = () => {
             <a
               href="#contact"
               className="font-heading flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              aria-label="ir para o formulário de contato"
             >
               Solicite um Orçamento
             </a>

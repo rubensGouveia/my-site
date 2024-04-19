@@ -27,6 +27,7 @@ const BlogPostItem: React.FC<{ post: IBlogPost }> = ({ post }) => {
             <a
               href={`/blog/${post.id}`}
               className="text-indigo-400 inline-flex items-center md:mb-2 lg:mb-0"
+              aria-label={`Leia mais sobre ${post.title}`}
             >
               Leia Mais
               <svg

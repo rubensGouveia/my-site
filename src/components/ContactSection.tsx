@@ -156,6 +156,7 @@ const ContactSection: React.FC = () => {
                 href="https://wa.me/5561996824771"
                 target="_blank"
                 className="text-indigo-400"
+                aria-label="Entrar em contato pelo WhatsApp"
               >
                 Telefone: 61 99682-4771
               </a>
@@ -165,6 +166,7 @@ const ContactSection: React.FC = () => {
                 href="mailto:contato@arcof.com.br"
                 target="_blank"
                 className="text-indigo-400"
+                aria-label="Entrar em contato por e-mail"
               >
                 E-mail: contato@arcof.com.br
               </a>

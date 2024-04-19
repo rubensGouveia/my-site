@@ -54,15 +54,27 @@ const Header: React.FC = () => {
         </span>
 
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <a href="/#services" className="mr-5 hover:text-indigo-400">
+          <a
+            href="/#services"
+            className="mr-5 hover:text-indigo-400"
+            aria-label="ir para Serviços"
+          >
             Serviços
           </a>
 
-          <a href="/#about" className="mr-5 hover:text-indigo-400">
+          <a
+            href="/#about"
+            className="mr-5 hover:text-indigo-400"
+            aria-label="ir para Sobre Nós"
+          >
             Sobre Nós
           </a>
 
-          <a href="/#contact" className="mr-5 hover:text-indigo-400">
+          <a
+            href="/#contact"
+            className="mr-5 hover:text-indigo-400"
+            aria-label="ir para Contato"
+          >
             Contato
           </a>
         </nav>
