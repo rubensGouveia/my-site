@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
     <footer className="bg-gray-900 text-gray-400 body-font flex w-full justify-center">
       <div className="container px-5 py-8 flex items-center sm:flex-row flex-col justify-between ">
         <span className="flex title-font font-medium items-center md:justify-start justify-center text-white">
-          <svg width="auto" height="60" viewBox="0 0 656 863">
+          <svg height="60" viewBox="0 0 656 863">
             <svg
               width="656"
               height="863"
@@ -17,14 +17,14 @@ const Footer: React.FC = () => {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M35.5 862.2H0.900024V578.6C0.900024 549 14.7 534.2 42.3 534.2H68.3C95.9667 534.2 109.8 549 109.8 578.6V862.2H75.2V752.9H35.5V862.2ZM75.2 721.5V580.7C75.2 570.633 70.1334 565.6 60 565.6H50.6C40.5334 565.6 35.5 570.633 35.5 580.7V721.5H75.2Z"
                 fill="#FEFEFE"
               />
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M143.9 534.2H211.8C238.267 534.2 251.5 549 251.5 578.6V697C251.5 719.6 245.2 733.9 231.5 739.9L251.5 862.2H216.8L199.5 752.9H178.6V862.2H143.9V534.2ZM178.6 721.5H201.3C211.633 721.567 216.8 715.333 216.8 702.8V584.4C216.8 571.867 211.633 565.6 201.3 565.6H178.6V721.5Z"
                 fill="#FEFEFE"
               />
@@ -33,8 +33,8 @@ const Footer: React.FC = () => {
                 fill="#FEFEFE"
               />
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M466.9 862.2C439.033 862.2 425.1 847.533 425.1 818.2V578.6C425.1 549 438.933 534.2 466.6 534.2H499.8C527.467 534.2 541.3 549 541.3 578.6V818.2C541.3 847.533 527.333 862.2 499.4 862.2H466.9ZM475.2 830.8H492.9C502.033 830.8 506.6 825.767 506.6 815.7V580.8C506.6 570.667 501.433 565.6 491.1 565.6H474.8C464.733 565.6 459.7 570.667 459.7 580.8V815.7C459.7 825.767 464.867 830.8 475.2 830.8Z"
                 fill="#FEFEFE"
               />

@@ -4,7 +4,7 @@ interface LogoIconProps {
 
 export const LogoIcon = ({ height = 60 }: LogoIconProps) => {
   return (
-    <svg width="auto" height={height} viewBox="0 0 656 549">
+    <svg height={height} viewBox="0 0 656 549">
       <svg
         width="656"
         height="600"

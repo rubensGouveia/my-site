@@ -5,7 +5,6 @@ const FrontendIcon = () => (
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     width={20}
-    height={"auto"}
     viewBox="0 0 24 24"
     stroke="currentColor"
   >
@@ -23,7 +22,6 @@ const AutomationIcon = () => (
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     width={20}
-    height={"auto"}
     viewBox="0 0 24 24"
     stroke="currentColor"
   >
@@ -41,7 +39,6 @@ const ConsultingIcon = () => (
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     width={20}
-    height={"auto"}
     viewBox="0 0 24 24"
     stroke="currentColor"
   >

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const AboutSection: React.FC = () => {
   return (
     <section id="about" className="text-gray-400 bg-gray-900 body-font">
@@ -20,10 +22,12 @@ const AboutSection: React.FC = () => {
           </p>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
+          <Image
             className="object-cover object-center rounded"
             alt="illustration a couple creating a chatbot | Image by vectorjuice on Freepick"
             src="about.svg"
+            width={512}
+            height={512}
           />
         </div>
       </div>

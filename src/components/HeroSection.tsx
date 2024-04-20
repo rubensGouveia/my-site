@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const HeroSection: React.FC = () => {
@@ -26,10 +27,12 @@ const HeroSection: React.FC = () => {
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
+          <Image
             className="object-cover object-center rounded"
             alt="illustration of a chatbot doing automation | Image by vectorjuice on Freepick"
             src="hero.svg"
+            width={512}
+            height={512}
           />
         </div>
       </div>
