@@ -28,6 +28,7 @@ const AboutSection: React.FC = () => {
             src="about.svg"
             width={512}
             height={512}
+            loading="eager"
           />
         </div>
       </div>
