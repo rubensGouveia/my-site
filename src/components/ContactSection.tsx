@@ -63,7 +63,7 @@ const ContactSection: React.FC = () => {
   }, [phoneValue]);
 
   const onSubmit: SubmitHandler<IFormInput> = (data) => {
-    axios.post("https://n8n.arcof.com.br/webhook/form", data);
+    axios.post("https://webhook.n8n.rubensgouveia.com.br/webhook/form", data);
 
     alert("Mensagem enviada! Entraremos em contato em breve.");
     reset();
